@@ -26,8 +26,14 @@ int main(int argc, char** argv)
             }
         }
     }
+    cout << "The sorted array is: ";
     for (int i = 0; i < n; i++) {
-        cout << bubble_array[i] << ",";
+        if (i+1 == n) {
+            cout << bubble_array[i];
+        }
+        else {
+            cout << bubble_array[i] << ",";
+        }
     }
 
 }
