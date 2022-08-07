@@ -3,7 +3,7 @@ using namespace std; // this means that you do not need to start the line with s
 int main(int argc, char** argv)
 {
     unsigned int n = 0;
-    cout << "Hello this is a test of the buble sort in c++! please enter the size of the unordered array: ";
+    cout << "Hello this is a test of the bubble sort in c++! please enter the size of the unordered array: ";
     cin >> n;
     cout << "You have chosen for the array to be: " << n << "\n";
     int* bubble_array = new int[n];
